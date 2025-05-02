@@ -112,3 +112,66 @@ header {
     background-color: #374dde;
     color: #FFFFFF;
 }
+/* project section */
+.section-project{
+    background-color: #0020F4;
+    margin-top: 2.5rem;
+    /* margin shoud be removed after merging with the header */
+    width: 100%;
+    height: 19.25rem;  
+}
+.project-container{
+    max-width: 74.6875rem;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.project-button{
+    font-family: "HelveticaNeue bold", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4375rem;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 4.375rem;
+}
+.dots-container{
+    width: 4.375rem;
+    height: 0.625rem;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.625rem;
+    position: absolute;
+    top: 5.25rem;
+    right: 0;;
+}
+.dot{
+    width: 0.625rem;
+    height: 0.625rem;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.dot:nth-child(n+2){
+    background-color: #ffffff ;
+    opacity: 0.3;
+    /* just in case, if we add more cards there is no need to add other child bckrnd opacity */
+}
+/* .img-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.project-image{
+    width: 28.9375rem;
+    height: 26.25rem;
+    position: absolute;
+} */
