@@ -1,0 +1,25 @@
+.class_nino{
+    
+}
+.img_width_37{
+    width: 37%;
+}
+.img_margin_left{
+    margin-left: 10%;
+}
+.img_margin_top{
+    margin-top: 10%;
+}
+.section_style_display{
+    display: flex;
+    padding-top: 20%;
+
+}
+.article_style{
+    width: 34%;
+    padding-left: 10%;
+}
+.article_p_style{
+    font-size: small;
+    padding-top: 5%;
+}
