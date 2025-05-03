@@ -165,13 +165,39 @@ header {
     opacity: 0.3;
     /* just in case, if we add more cards there is no need to add other child bckrnd opacity */
 }
-/* .img-container{
-    display: flex;
-    justify-content: space-between;
+.slider-img{
+    width: 463px;
+    height: 403px;
+    top:188px;
     position: relative;
 }
 .project-image{
-    width: 28.9375rem;
-    height: 26.25rem;
+    width: 463px;
+    height: 403px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin:0 auto;
+}
+.img-overlay{
     position: absolute;
-} */
+    bottom: 10px;
+    left: 10px;
+    border-radius: 12px;
+    /* margin:0 auto; */
+    width: 443px;
+    height: 125px;
+    background-color: #ffffff;
+    opacity: 0.4;
+    filter: blur(10) brightness(15)
+    
+}
+p {
+    font-family: 'helveticaNeue lt', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #171717;
+}
+.img-border{
+
+}
