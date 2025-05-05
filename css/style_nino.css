@@ -20,6 +20,8 @@
     padding-left: 10%;
 }
 .article_p_style{
+    font: normal normal normal 16px/26px HelveticaNeueLTGEOW82-55Rm;
+    line-height: 0.9;
     font-size: small;
     padding-top: 5%;
 }
